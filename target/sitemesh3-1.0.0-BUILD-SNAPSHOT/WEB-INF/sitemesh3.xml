@@ -1,0 +1,29 @@
+<sitemesh>
+	
+	<mapping>
+		<path>/simple/*</path>
+		<decorator>/WEB-INF/decorators/simple/simple_footer.jsp</decorator>
+		<decorator>/WEB-INF/decorators/simple/simple_navbar.jsp</decorator>
+		<decorator>/WEB-INF/decorators/simple/simple_header.jsp</decorator>
+		<decorator>/WEB-INF/decorators/simple/simple_main_layout.jsp</decorator>
+	</mapping>
+	
+	<mapping>
+		<path>/</path>
+		<decorator>/WEB-INF/decorators/common/common_footer.jsp</decorator>
+		<decorator>/WEB-INF/decorators/common/common_navbar.jsp</decorator>
+		<decorator>/WEB-INF/decorators/common/common_header.jsp</decorator>
+		<decorator>/WEB-INF/decorators/common/common_main_layout.jsp</decorator>
+	</mapping>
+	
+	<mapping>
+		<path>/articles/*</path>
+		<decorator>/WEB-INF/decorators/defaultDecorator.jsp</decorator>
+	</mapping>
+	
+	<mapping>
+		<path>/user</path>
+		<decorator>/WEB-INF/decorators/userDecorator.jsp</decorator>
+	</mapping>
+	
+</sitemesh>
